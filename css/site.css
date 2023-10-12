@@ -46,3 +46,9 @@ ol {
   border: solid 1px #b5ec7d;
   background-color: rgb(192, 246, 166);
 }
+
+.centipede-photo{
+  width: 100%;
+  max-width: 1500px;
+  height: 500px
+}
