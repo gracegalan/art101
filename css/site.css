@@ -56,3 +56,10 @@ ol {
 a {
 color:#bd2071
 }
+
+.menu-bar {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #f33a9a;
+  background-color:#fff2f9;
+}
