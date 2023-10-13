@@ -63,3 +63,8 @@ color:#bd2071
   border: solid 1px #f33a9a;
   background-color:#fff2f9;
 }
+
+.hag-stone{
+  width: 100%;
+  max-width: 500px
+}
