@@ -3,6 +3,15 @@ background-color: rgb(2, 69, 17)
 }
 
 h1 {
-color: rgb(251, 245, 226)
+color: rgb(251, 245, 226);
+word-spacing: 100%;
+letter-spacing: 5px;
+font-weight: bolder;
+text-align: center;
 }
 
+.tree-line-photo{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px
+}
