@@ -30,3 +30,34 @@ p#playlist {
     text-align: center;
 }
 
+#content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #9dfa9b;
+    background-color: #9dfa9b;
+  }
+
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #e6fdcf;
+    background-color: #e6fdcf;
+  }
+
+  #atomic-habits{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    max-width: 100px;
+    max-height: 300px;
+}
+
+#circe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100px;
+    max-height: 300px;
+}
