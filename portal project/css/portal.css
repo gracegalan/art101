@@ -10,6 +10,10 @@ font-weight: bolder;
 text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .tree-line-photo{
     width: 100%;
     max-width: 1500px;
@@ -44,18 +48,8 @@ p#playlist {
     background-color: #e6fdcf;
   }
 
-  #atomic-habits{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100px;
-    max-height: 300px;
-}
-
-#circe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .atomic-habits, .circe, .before-the-coffee-gets-cold{
+    width: 50%;
     max-width: 100px;
     max-height: 300px;
 }
