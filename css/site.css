@@ -69,3 +69,9 @@ color:#bd2071
   width: 100%;
   max-width: 500px
 }
+
+#elevator-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
