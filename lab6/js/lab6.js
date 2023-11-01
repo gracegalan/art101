@@ -3,7 +3,7 @@
 // Date: 28 October 2023
 
 //Define Variables
-myTransport= ["Honda Civic ", "LoopBus ", "Feet "]
+var myTransport= ["Honda Civic ", "LoopBus ", "Feet "]
 
 //Create and Object for My Main Ride
 
