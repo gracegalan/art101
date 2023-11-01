@@ -3,7 +3,7 @@
 //Co-Author: Ren Murphey
 //Date created: 31 October 2023
 
-
+//Assisted by Wes Modes' template for lab 7
 //define function that will sort the user's name
 function nameInput() {
     var userName = window.prompt("Feed me your name.");
