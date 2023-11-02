@@ -16,6 +16,10 @@ body{
     background-color: #240202;
   }
 
+  h1{
+    letter-spacing: 7pt;
+    color:antiquewhite;
+  }
 
 .alligator{
     width: 100%;
