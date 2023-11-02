@@ -1,3 +1,22 @@
+body{
+    background-color: darkolivegreen;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #240202;
+    background-color: rgb(119, 103, 103);
+  }
+
+  .minor-section-2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #240202;
+    background-color: #240202;
+  }
+
+
 .alligator{
     width: 100%;
     max-width: 1600px;
@@ -13,4 +32,6 @@ h3{
 .output{
     font-size: 45pt;
     text-align: center;
+    font-style: italic;
+    color: red;
 }
