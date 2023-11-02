@@ -24,3 +24,4 @@ function nameInput() {
 //output
 document.writeln("Your name tastes horrible, take it back: ", 
     nameInput(), "</br>");
+    
