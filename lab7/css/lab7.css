@@ -1,0 +1,16 @@
+.alligator{
+    width: 100%;
+    max-width: 1600px;
+    max-height: 750px;
+}
+
+h3{
+    font-size: 90pt;
+    color: red;
+    text-align: center;
+}
+
+.output{
+    font-size: 45pt;
+    text-align: center;
+}
