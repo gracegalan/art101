@@ -29,4 +29,4 @@ var result = array.map(function(x) {
 });
 
 //final
-console.log("Here's my new numbers", result);
+console.log("Here's my new numbers:", result);
