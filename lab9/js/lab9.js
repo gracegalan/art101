@@ -35,6 +35,6 @@ $("#reflection").append("<button id='third-button'>exhaust me, baby</button>");
 
 $("#third-button").click(function(){
     //cool thing
-    $("reflection").toggleClass("special");
+    $("#reflection").toggleClass("special");
 })
 
