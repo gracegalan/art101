@@ -1,0 +1,18 @@
+
+body{
+    background-color: #b9b260;
+}
+
+
+.minor-section{
+    background-color: #808721;
+    border: dotted 10px #d9e2b1;
+}
+
+#challenges, #problems, #reflection, #results{
+    margin: 30px;
+}
+
+.special{
+    background-color: red
+}

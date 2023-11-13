@@ -77,7 +77,13 @@ color:#bd2071
 }
 
 .labs{
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.labs2{
+  margin-left: 90px;
+  margin-right: 90px;
   font-weight: bold;
 }
