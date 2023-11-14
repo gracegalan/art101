@@ -25,7 +25,10 @@ $("#problems").append("<button id='second-button'>try it again</button>");
 $("#second-button").click(function(){
     //make a function that does something cool
     console.log("Take me out to dinner first, sheesh!");
+    $("#results").append("Take me out to dinner first, sheesh!");
 });
+
+
 
 //add your last button
 
