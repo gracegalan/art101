@@ -10,3 +10,21 @@
     color: white;
     font-family: sans-serif;
 }
+
+.text:nth-child(odd) {
+    text-align: left;
+}
+
+.text:nth-child(odd) p {
+    background-color: rgb(140, 140, 155);
+    color: rgb(2, 2, 2);
+}
+
+.text:nth-child(even) {
+    text-align: right;
+}
+
+.text:nth-child(even) p {
+    background-color: rgb(49, 49, 243);
+    color: white;
+}
