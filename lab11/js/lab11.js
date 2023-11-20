@@ -13,7 +13,7 @@ $("#submit").click(function() {
     const userName = $("#user-name").val();
     userNameSorted = sortString(userName);
     //append new div to our output div
-    $("#output").html('div class="text"><p>' + userNameSorted + '</p></div>');
+    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
 //attach click handler to my-button to input name
