@@ -6,7 +6,7 @@
 
 //attach click handler to my-button to input name
 $("#my-button").click(function(){
-    var name = prompt("What the heck is your name?");
+    var name = $("#input").val();
     $('#title').html('Hello ' + name);
     console.log("Prompt returned: " + name);
     newText = "Hello " + name + "!";
