@@ -2,6 +2,8 @@
 //Author: Grace Galan
 //Date: 19 November 2023
 
+//completed with assistance of Wes Modes' lab 11 template and website js source code
+
 //sort characters in alphabetical order
 function sortString(inputString) {
     //make an array, sort, then reassemble
