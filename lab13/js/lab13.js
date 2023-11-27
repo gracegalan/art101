@@ -58,3 +58,6 @@ else {
 
 }
 });
+
+
+$("#output").append("<p>" + str + "</p>");
