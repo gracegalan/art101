@@ -13,6 +13,10 @@ function iMultiply(x){
 
 //test it
 console.log("What's 4x4?", iMultiply(4));
+
+$("#button-1").click(iMultiply(4));
+
+
 console.log("What's 5x4?", iMultiply(5));
 
 //create an array

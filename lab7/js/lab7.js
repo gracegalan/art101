@@ -17,6 +17,8 @@ function nameInput() {
 //connect array back into a string
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
+//case sort
+var newName = toTitleCase(shuffledString);
 //return
     return nameSorted;
 }
