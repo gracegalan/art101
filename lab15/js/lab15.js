@@ -9,32 +9,25 @@ $("#myButton").click(function(){
     console.log("button works")
 });
 
-//link API
-const Endpoint = "https://yesno.wtf/"
 
-//attach event listener
-$("#myButton").click(function() {
-    //add ajax
-    $.ajax({
-        "url": Endpoint, 
-        "data": {
-            "answer": "no",
-            "forced": false,
-            "image": "https://yesno.wtf/assets/no/21-05540164de4e3229609f106e468fa8e7.gif"
-            },
-        "type": "GET"
-        //What happens when data type is successful
-        success: (function(data) {
-            //do stuff
-            console.log(data);
-             //in the call back
-            //extract the answer
-            yourAnswer = data.answer;
-            //add to output div
-            $("#output").append("<p>" + yourAnswer);
-        }),
-            error: (function (jqXHR, textStatus, errorThrown) {
-                console.log("Error", textStatus, errorThrown);
-            })
-     })
-    })
+const ENDPOINT = "https://icanhazdadjoke.com";
+
+//attach event listener 
+$("#myButton").click(function(){
+  //ajax
+  $.ajax({
+    "url": ENDPOINT,
+    "dataType":"json",
+    "success": function(results){
+        console.log(results);
+       //in the callback:
+       //extract the results
+        jokeText = results.joke;
+       //add to output div
+        $("#output").append("<p>" + jokeText + "</p>");
+    },
+    "error": function(){
+      
+    }
+  })
+})
